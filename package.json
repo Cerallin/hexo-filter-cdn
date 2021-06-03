@@ -1,0 +1,38 @@
+{
+  "name": "hexo-filter-cdn",
+  "version": "0.9.0",
+  "description": "A hexo plugin to replace URLs with your CDN configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerallin/hexo-generator-cdn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cerallin/hexo-filter-cdn/issues"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "cdn"
+  ],
+  "author": {
+    "name": "Cerallin",
+    "email": "cerallin@cerallin.top"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-util": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/Cerallin/hexo-filter-cdn#readme",
+  "license": "GPL-3.0-or-later"
+}
