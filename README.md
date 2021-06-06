@@ -3,13 +3,11 @@
 **hexo-filter-cdn** is a hexo plugin to replace URL links with your CDN configuration.
 
 ## Install
-
 ```shell
 $ npm install hexo-filter-cdn --save
 ```
 
 ## Usage
-
 Add configurations to `_config.yml`:
 
 ```yaml
