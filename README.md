@@ -38,5 +38,4 @@ cdn_filter:
 - [ ] Filter JS files
 
 ## License
-
 GPL3+
