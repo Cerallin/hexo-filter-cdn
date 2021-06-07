@@ -23,7 +23,7 @@ if (!cdn_filter.img_url) {
   cdn_filter.img_url = cdn_filter.url + cdn_filter.img_url;
 }
 
-let Filter = require('hexo-generator-cdn/lib/filter');
+let Filter = require('./lib/filter');
 let filter = new Filter(hexo);
 
 if (cdn_filter.post_only) {
