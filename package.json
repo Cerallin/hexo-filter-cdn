@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-cdn",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A hexo plugin to replace URLs with your CDN configuration.",
   "main": "index.js",
   "scripts": {

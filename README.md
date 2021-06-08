@@ -14,17 +14,17 @@ Add configurations to `_config.yml`:
 cdn_filter:
   enable: true
   post_only: false # only render posts
-  relative_path: true # replace relative paths
   filter_css: true # CSS file
   filter_html: # HTML file
     enable: true
     img_tag: true # <img src="{URL}">
     href_link: false # Not recommand, <... href="{URL}">
     src_link: true # <... src="{URL}">
-  filter_js: false # Not implememted yet
   url: https://your.cdn.com
   img_url: https://your.img.cdn.com
 ```
+
+**Notice**: relative paths will not be replaced.
 
 ## Feature List
 - [X] Replace URL of `src` attributes

@@ -10,8 +10,6 @@ const cdn_filter = Object.assign({
     src_link: true,
   },
   filter_css: false,
-  filter_js: false,
-  relative_link: true,
 }, hexo.config.cdn_filter);
 
 hexo.config.cdn_filter = cdn_filter;
