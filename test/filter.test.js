@@ -54,3 +54,13 @@ test('Skip relative link', () => {
     expect(filter.processCSS('background-image: url("../img.png")', { path: "" }))
         .toBe('background-image: url("../img.png")')
 })
+
+test('Relative link', () => {
+    cdn_filter.relative_link = true;
+    // HTML
+    expect(filter.processHTML('<img src="./img.png">', { path: "" }))
+        .toBe('<img src="./img.png">')
+    // CSS
+    expect(filter.processCSS('background-image: url("../img.png")', { path: "" }))
+        .toBe('background-image: url("../img.png")')
+})

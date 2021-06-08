@@ -14,6 +14,8 @@ const cdn_filter = Object.assign({
   relative_link: true,
 }, hexo.config.cdn_filter);
 
+hexo.config.cdn_filter = cdn_filter;
+
 if (!cdn_filter.enable)
   return;
 
